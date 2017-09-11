@@ -1,0 +1,246 @@
+/* CSS Document */
+*{
+margin: 0;
+}
+a {
+	text-decoration: none;
+	color:#1e00ff; /* cor da fonte dos menus */
+}
+a:hover {
+	text-shadow: 1px 1px 1px #888;
+}
+
+body {
+	background-image:url(../../images/fundo.jpg);
+	margin:0;
+	padding:0;
+	font-family: Verdana;
+	color:#1E00FF;
+	text-align:center; /* hack para o IE */	
+}
+#centrar {
+	width: 965px;
+	margin:0 auto;
+	padding: 0px;
+	text-align:left; /* "remédio" para o hack do IE */	
+}
+#topo {
+	background-image: url(../images/topo.png);
+	width: 965px;
+	height: 117px;
+	margin-top: 10px;
+}
+#conteudo {
+	margin-top: -5px;
+	background-color:#FFFFFF;
+	width: 965px;
+	min-height: 450px;
+}
+#title {
+	position: absolute;
+	font-size: 20px;
+	color:#1e00ff;
+	font-weight:bold;
+	margin-top: 25px;
+	margin-left: 240px;
+}
+#subtitle {
+	position:absolute;
+	font-size: 14px;
+	color: #000;
+	margin-top: 63px;
+	margin-left: 315px;
+	font-weight:bold;
+}
+#bemvindo {
+	position:relative;
+	margin-top:-30px;
+	font-size:12px;
+	line-height: 15px;
+	color:#1e00ff;
+	margin-left: 15px;
+	width:500px;
+}
+#sair {
+	margin-top:-20px;
+	margin-left: 700px;
+	width:250px;
+	text-align: right;
+	font-size:12px;
+	font-weight:bold;
+	z-index:1;
+}
+#menu {
+	position:relative;
+	margin-top:25px;
+	width:965px;
+	}
+#menu ul {
+	list-style-image:url(../images/icones/programs.png) ;
+	margin-left: -55px;
+	}
+#menu ul li {
+	font-size:13px;
+	float:left;
+	margin-left: 60px;
+	font-weight:bold;
+}
+#menudias {
+	position:relative;
+	margin-top:25px;
+	/*width:765px;*/
+	}
+#menudias ul {
+	list-style-image:url(../images/icones/programs.png) ;
+	margin-left: -55px;
+	}
+#menudias ul li {
+	font-size:10px;
+	float:left;
+	margin-left: 30px;
+}
+
+#rodape {	
+	position: relative;
+	background-image:url(../images/rodape.png);
+	width:965px;
+	height:66px;
+}
+#edicoes {
+	position:relative;
+	margin-top:25px;
+	margin-left: 20px;
+	}
+#tit {
+	color:#FFFFFF;
+	width: 945px;
+	height: 25px;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#1e00ff;
+	margin-left: -10px;
+}
+#tit p {
+	padding: 3px;
+	padding-left: 10px;
+}
+#titdias {
+	margin-top:5px;
+	color:#FFFFFF;
+	width: 945px;
+	height: 15px;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#699;
+	margin-left: -10px;
+}
+#titdias p {
+	/*padding: 3px;*/
+	padding-left: 10px;
+}
+#menu2 {
+	font-size:11px;
+	font-weight:bold;
+	margin-top: -12px;
+	}
+#nav {
+	position:relative;
+	font-size:11px;
+	font-weight:bold;
+	margin-top: -20px;
+	width:330px;
+	margin-left: 400px;
+	text-align:right;
+}
+.style7 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	font-weight: bold;
+}
+.tabela {
+	font-family:Verdana;
+	color: #0033FF;
+	font-size:12px;
+
+}
+.tittabela {
+	font-family:Verdana;
+	color: #1e00ff;
+	font-size:18px;
+
+}
+.tittabela2 {
+	font-family:Verdana;
+	color: #1e00ff;
+	font-size:18px;
+
+}
+.tittabela3 {
+	font-family:Verdana;
+	color: #1e00ff;
+	font-size:10px;
+
+}
+.textfield {
+	font-family:Verdana;
+	color: #1e00ff;
+	font-size:9px;
+	font-weight: bold;
+
+}
+.textfield2 {
+	font-family:Verdana;
+	color: #1e00ff;
+	font-size:10px;
+	font-weight: bold;
+
+}
+.formato {
+	color: #1e00ff;
+	font-size: 10px;
+}
+.vermelho {
+	color: #FF0000;
+}
+.azul {
+	color: #0033FF;
+}
+.fonte_peq {
+	font-size: 11px;
+}
+#lista {	
+	margin-left: -10px;
+	width: 743px;
+	font-size:11px;
+}
+td {
+	padding-top: 5px;
+	padding-left: 5px;
+	}
+	
+#album {	
+	float:inherit;
+	position:relative;
+	overflow:auto;
+}
+
+#albumfoto{	
+	float:left;
+	margin:10px;
+	background-color:#F3F3F3;
+	overflow:hidden;
+	width: 80px;
+	height: 125px;
+	_height: 150px;
+	*height: 150px;
+}
+#tabs {
+	width: 870px;
+	margin:auto;
+}
+#card1
+{
+	position:absolute;
+	left:110px;
+}
+/* fim css */
